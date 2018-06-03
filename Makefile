@@ -32,7 +32,7 @@ doc:
 	$(DODVIPDF)
 
 clean:
-	$(RM) $(JOBNAME).{aux,bbl,bcf,blg,dvi,lof,log,lot,run.xml,toc,out{,.bak}} \
+	$(RM) $(JOBNAME).{pdf,aux,bbl,bcf,blg,dvi,lof,log,lot,run.xml,toc,out{,.bak}} \
 		{missfont,texput}.log chap/*.aux
 
 distclean: clean
